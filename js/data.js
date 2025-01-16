@@ -8,7 +8,8 @@ export const movies = {
         descripcion: "Un grupo de astronautas viaja a través de un agujero negro en busca de un nuevo hogar para la humanidad. Dirigida por Christopher Nolan, 'Interestelar' explora los límites de la física y los sacrificios personales en la lucha por la supervivencia.",
         duracion: "169 minutos",
         genero: "Ciencia Ficción, Aventura, Drama",
-        fechaLanzamiento: "7 de noviembre de 2014"
+        fechaLanzamiento: "7 de noviembre de 2014",
+        reparto: ["Leonardo DiCaprio", "Joseph Gordon-Levitt", "Ellen Page"]
     },
       {
         id: 2,
@@ -18,7 +19,8 @@ export const movies = {
         descripcion: "Batman enfrentará a un villano enigmático conocido como el Joker, quien busca sumergir a Gotham City en el caos.",
         duracion: "152 minutos",
         genero: "Acción, Crimen, Drama",
-        fechaLanzamiento: "18 de julio de 2008"
+        fechaLanzamiento: "18 de julio de 2008",
+        reparto: ["Christian Bale", "Heath Ledger", "Aaron Eckhart"]
       },
       {
         id: 3,
@@ -28,7 +30,8 @@ export const movies = {
         descripcion: "Un hombre condenado injustamente por un crimen que no cometió lucha por sobrevivir en una prisión corrupta mientras busca redención.",
         duracion: "142 minutos",
         genero: "Drama",
-        fechaLanzamiento: "14 de octubre de 1994"
+        fechaLanzamiento: "14 de octubre de 1994",
+        reparto: ["Matthew McConaughey", "Anne Hathaway", "Jessica Chastain"]
       },
       {
         id: 4,
@@ -38,7 +41,8 @@ export const movies = {
         descripcion: "La historia de la familia Corleone y su participación en el crimen organizado en América, con el patriarca Don Vito Corleone al mando.",
         duracion: "175 minutos",
         genero: "Crimen, Drama",
-        fechaLanzamiento: "24 de marzo de 1972"
+        fechaLanzamiento: "24 de marzo de 1972",
+        reparto: ["Keanu Reeves", "Laurence Fishburne", "Carrie-Anne Moss"]
       },
       {
         id: 5,
@@ -48,7 +52,8 @@ export const movies = {
         descripcion: "Un hombre con un bajo coeficiente intelectual vive una vida extraordinaria y se convierte en testigo de algunos de los momentos más importantes de la historia de Estados Unidos.",
         duracion: "142 minutos",
         genero: "Drama, Comedia",
-        fechaLanzamiento: "6 de julio de 1994"
+        fechaLanzamiento: "6 de julio de 1994",
+        reparto: ["Sam Worthington", "Zoe Saldana", "Sigourney Weaver"]
       },
       {
         id: 6,
@@ -58,7 +63,8 @@ export const movies = {
         descripcion: "Un programador descubre que la realidad en la que vive es una simulación controlada por máquinas, y se une a un grupo de rebeldes para luchar contra ellas.",
         duracion: "136 minutos",
         genero: "Ciencia Ficción, Acción",
-        fechaLanzamiento: "31 de marzo de 1999"
+        fechaLanzamiento: "31 de marzo de 1999",
+        reparto: ["Leonardo DiCaprio", "Kate Winslet", "Billy Zane"]
       },
       {
         id: 7,
@@ -68,7 +74,8 @@ export const movies = {
         descripcion: "El joven león Simba huye de su hogar tras la muerte de su padre, pero regresa para reclamar su lugar como rey.",
         duracion: "88 minutos",
         genero: "Animación, Aventura, Drama",
-        fechaLanzamiento: "15 de junio de 1994"
+        fechaLanzamiento: "15 de junio de 1994",
+        reparto: ["Tim Robbins", "Morgan Freeman", "Bob Gunton"]
       },
       {
         id: 8,
@@ -78,7 +85,8 @@ export const movies = {
         descripcion: "Un general romano es traicionado y se convierte en gladiador, buscando venganza contra el emperador que destruyó su vida.",
         duracion: "155 minutos",
         genero: "Acción, Aventura, Drama",
-        fechaLanzamiento: "5 de mayo de 2000"
+        fechaLanzamiento: "5 de mayo de 2000",
+        reparto: ["Tom Hanks", "Robin Wright", "Gary Sinise"]
       },
       {
         id: 9,
@@ -88,7 +96,8 @@ export const movies = {
         descripcion: "Varios relatos entrelazados de la vida de personajes en el bajo mundo de Los Ángeles, incluyendo un gánster, un boxeador y una pareja de ladrones.",
         duracion: "154 minutos",
         genero: "Crimen, Drama",
-        fecha_lanzamiento: "14 de octubre de 1994"
+        fecha_lanzamiento: "14 de octubre de 1994",
+        reparto: ["Russell Crowe", "Joaquin Phoenix", "Connie Nielsen"]
       },
       {
         id: 10,
@@ -98,7 +107,8 @@ export const movies = {
         descripcion: "Una joven agente del FBI busca la ayuda de un asesino en serie encarcelado para capturar a otro asesino que sigue libre.",
         duracion: "118 minutos",
         genero: "Terror, Suspenso, Crimen",
-        fecha_lanzamiento: "14 de febrero de 1991"
+        fecha_lanzamiento: "14 de febrero de 1991",
+        reparto: ["Marlon Brando", "Al Pacino", "James Caan"]
       },
       {
         id: 11,
@@ -108,7 +118,8 @@ export const movies = {
         descripcion: "La historia de la creación de Facebook, explorando la batalla legal entre Mark Zuckerberg y sus ex-amigos.",
         duracion: "120 minutos",
         genero: "Biografía, Drama",
-        fecha_lanzamiento: "1 de octubre de 2010"
+        fecha_lanzamiento: "1 de octubre de 2010",
+        reparto: ["Robert Downey Jr.", "Chris Evans", "Scarlett Johansson"]
       },
       {
         id: 12,
@@ -118,7 +129,8 @@ export const movies = {
         descripcion: "Un parque temático que alberga dinosaurios clonados se convierte en una pesadilla cuando los animales escapan de su control.",
         duracion: "127 minutos",
         genero: "Ciencia Ficción, Aventura, Acción",
-        fecha_lanzamiento: "11 de junio de 1993"
+        fecha_lanzamiento: "11 de junio de 1993",
+        reparto: ["Matthew Broderick", "James Earl Jones", "Jeremy Irons"]
       },
       {
         id: 13,
@@ -128,7 +140,8 @@ export const movies = {
         descripcion: "Un joven granjero llamado Luke Skywalker se une a un grupo de rebeldes para derrotar al malvado Imperio Galáctico.",
         duracion: "121 minutos",
         genero: "Ciencia Ficción, Aventura, Acción",
-        fecha_lanzamiento: "25 de mayo de 1977"
+        fecha_lanzamiento: "25 de mayo de 1977",
+        reparto: ["Idina Menzel", "Kristen Bell", "Josh Gad"]
       },
       {
         id: 14,
@@ -138,7 +151,8 @@ export const movies = {
         descripcion: "Un ex-marine es enviado a un planeta lejano donde debe infiltrarse en una tribu nativa, pero se enamora de su cultura.",
         duracion: "162 minutos",
         genero: "Ciencia Ficción, Aventura",
-        fecha_lanzamiento: "18 de diciembre de 2009"
+        fecha_lanzamiento: "18 de diciembre de 2009",
+        reparto: ["Johnny Depp", "Orlando Bloom", "Keira Knightley"]
       },
       {
         id: 15,
@@ -148,7 +162,8 @@ export const movies = {
         descripcion: "Un hombre desencantado con su vida comienza un club de lucha secreto, donde se enfrenta a su propio ego y a un hombre carismático.",
         duracion: "139 minutos",
         genero: "Drama",
-        fecha_lanzamiento: "15 de octubre de 1999"
+        fecha_lanzamiento: "15 de octubre de 1999",
+        reparto: ["Mark Hamill", "Harrison Ford", "Carrie Fisher"]
       },
       {
         id: 16,
@@ -158,7 +173,8 @@ export const movies = {
         descripcion: "Un detective investiga la desaparición de una prisionera en un hospital psiquiátrico, pero comienza a dudar de su propia cordura.",
         duracion: "138 minutos",
         genero: "Suspenso, Misterio, Drama",
-        fecha_lanzamiento: "19 de febrero de 2010"
+        fecha_lanzamiento: "19 de febrero de 2010",
+        reparto: ["Michael J. Fox", "Christopher Lloyd", "Lea Thompson"]
       },
       {
         id: 17,
@@ -168,7 +184,8 @@ export const movies = {
         descripcion: "Un grupo de astronautas viaja a través de un agujero negro en busca de un nuevo hogar para la humanidad.",
         duracion: "169 minutos",
         genero: "Ciencia Ficción, Aventura, Drama",
-        fecha_lanzamiento: "7 de noviembre de 2014"
+        fecha_lanzamiento: "7 de noviembre de 2014",
+        reparto: ["Sam Neill", "Laura Dern", "Jeff Goldblum"]
       },
       {
         id: 18,
@@ -178,7 +195,8 @@ export const movies = {
         descripcion: "Dos magos rivales intentan superar a uno al otro con trucos cada vez más elaborados, pero su obsesión los lleva por caminos peligrosos.",
         duracion: "130 minutos",
         genero: "Misterio, Drama, Suspenso",
-        fecha_lanzamiento: "20 de octubre de 2006"
+        fecha_lanzamiento: "20 de octubre de 2006",
+        reparto: ["Hugh Jackman", "Christian Bale", "Scarlett Johansson"]
       },
       {
         id: 19,
@@ -188,7 +206,8 @@ export const movies = {
         descripcion: "Un músico y una actriz luchan por cumplir sus sueños en Los Ángeles mientras se enamoran, pero enfrentan obstáculos en su relación.",
         duracion: "128 minutos",
         genero: "Musical, Romance, Drama",
-        fecha_lanzamiento: "9 de diciembre de 2016"
+        fecha_lanzamiento: "9 de diciembre de 2016",
+        reparto: ["Arnold Schwarzenegger", "Linda Hamilton", "Michael Biehn"]
       },
       {
         id: 20,
@@ -198,7 +217,8 @@ export const movies = {
         descripcion: "Un joven Spider-Man se encuentra con otros Spider-People de diferentes dimensiones mientras luchan contra un villano común.",
         duracion: "117 minutos",
         genero: "Animación, Acción, Aventura",
-        fecha_lanzamiento: "14 de diciembre de 2018"
+        fecha_lanzamiento: "14 de diciembre de 2018",
+        reparto: ["Jesse Eisenberg", "Andrew Garfield", "Justin Timberlake"]
       }
     ]
   };

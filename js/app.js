@@ -48,6 +48,10 @@ const fillModal = (movieId) => {
         const modalTitle = document.getElementById("modalTitle");
         const modalDescription = document.getElementById("modalDescription");
         const modalImage = document.getElementById("modalImage");
+        const modalDuration = document.getElementById("modalDuration");
+        const modalGenre = document.getElementById("modalGenre");
+        const modalReleaseDate = document.getElementById("modalReleaseDate");
+        const modalCast = document.getElementById("modalCast");
 
         if (!movie) {
             throw new Error("Película no encontrada");
@@ -56,6 +60,10 @@ const fillModal = (movieId) => {
         modalTitle.textContent = movie.titulo;
         modalDescription.textContent = movie.descripcion;
         modalImage.src = movie.imagen;
+        modalDuration.textContent = movie.duracion;
+        modalGenre.textContent = movie.genero;
+        modalReleaseDate.textContent = movie.fechaLanzamiento;
+        modalCast.textContent = movie.reparto.join(", ");
     } catch (error) {
         console.error("Error al llenar el modal: ", error);
     }

@@ -1,11 +1,11 @@
 .cardMovie img {
-    display: block; 
-    margin-left: auto; 
+    display: block;
+    margin-left: auto;
     margin-top: 2vh;
-    margin-right: auto; 
+    margin-right: auto;
     max-width: 65%;
-    height: auto; 
-    object-fit: cover; 
+    height: auto;
+    object-fit: cover;
 }
 
 .card-body {
@@ -15,14 +15,35 @@
     align-items: center;
 }
 
-.contentMovies{
+.contentMovies {
     margin: 3vh 10vh 3vh 10vh;
-    
 }
 
-.navbar{
-    
+.navbar {
     background-color: ghostwhite !important;
     width: 100% !important;
 }
 
+#modalImage {
+    width: 80%;
+}
+
+.modal-body img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.modal-body {
+    gap: 1rem;
+}
+
+.modal-body div.text-start {
+    padding: 0 1rem;
+}
+
+.textDescription {
+    max-width: 60%;
+}
