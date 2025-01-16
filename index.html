@@ -9,23 +9,40 @@
     <title>Movies</title>
 </head>
 <body>
-        <div class="container bodyP d-flex justify-content-center flex-wrap ">
-            <nav class="navbar navbar-light bg-light col-10">
-                <div class="container-fluid">
-                  <a class="navbar-brand">Movies</a>
-                  <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                  </form>
+    <div class="container bodyP d-flex justify-content-center flex-wrap ">
+        <nav class="navbar navbar-light bg-light col-10">
+            <div class="container-fluid">
+                <a class="navbar-brand">Movies</a>
+                <form class="d-flex">
+                    <input id="searchInput" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="button">Search</button>
+                </form>
+            </div>
+        </nav>
+
+        <!-- Contenedor de películas -->
+        <div id="movieContainer" class="row d-flex justify-content-center flex-wrap contentMovies col-10">
+            <!-- Aquí se renderizarán las películas -->
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="movieModal" tabindex="-1" aria-labelledby="movieModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalTitle">Modal title</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img id="modalImage" src="" alt="Movie Image" class="img-fluid mb-3">
+                        <p id="modalDescription"></p>
+                    </div>
                 </div>
-              </nav>
+            </div>
+        </div>
+    </div>
 
-             
-              <script type="module" src="./js/app.js"></script>
+    <script type="module" src="./js/app.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
- 
-   
 </body>
-
-    <!-- <script src="./js/app.js"></script> -->
 </html>

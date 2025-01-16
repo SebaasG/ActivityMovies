@@ -1,10 +1,11 @@
 .cardMovie img {
-    display: block; /* Cambiar a block para tratar la imagen como un elemento de bloque */
-    margin-left: auto; /* Centrar la imagen a la izquierda */
-    margin-right: auto; /* Centrar la imagen a la derecha */
-    max-width: 40%; /* Limitar el tamaño máximo de la imagen */
-    height: auto; /* Mantener la proporción original */
-    object-fit: cover; /* Asegura que la imagen se cubra sin deformarse */
+    display: block; 
+    margin-left: auto; 
+    margin-top: 2vh;
+    margin-right: auto; 
+    max-width: 65%;
+    height: auto; 
+    object-fit: cover; 
 }
 
 .card-body {
@@ -17,5 +18,11 @@
 .contentMovies{
     margin: 3vh 10vh 3vh 10vh;
     
+}
+
+.navbar{
+    
+    background-color: ghostwhite !important;
+    width: 100% !important;
 }
 
