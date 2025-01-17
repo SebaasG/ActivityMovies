@@ -4,61 +4,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
+    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style.css"> <!-- Enlace al archivo de estilos personalizados -->
     <title>Movies</title>
 </head>
 <body>
-    <div class="container bodyP d-flex justify-content-center flex-wrap ">
+    <!-- Contenedor principal centrado y adaptativo -->
+    <div class="container bodyP d-flex justify-content-center flex-wrap">
+
+        <!-- Barra de navegación -->
         <nav class="navbar navbar-light bg-light col-10">
             <div class="container-fluid">
-                <a class="navbar-brand">Movies</a>
+                <a class="navbar-brand">Movies</a> <!-- Título de la barra de navegación -->
                 <form class="d-flex">
+                    <!-- Campo de búsqueda -->
                     <input id="searchInput" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-success" type="button">Search</button>
                 </form>
             </div>
         </nav>
 
-        <!-- Contenedor de películas -->
+        <!-- Contenedor para las películas, dinámico mediante JavaScript -->
         <div id="movieContainer" class="row d-flex justify-content-center flex-wrap contentMovies col-10">
-            <!-- Aquí se renderizarán las películas -->
+            <!-- Aquí se renderizarán las películas mediante JavaScript -->
         </div>
 
+        <!-- Modal para mostrar detalles de la película -->
         <div class="modal fade" id="movieModal" tabindex="-1" aria-labelledby="movieModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-md"> <!-- Cambié a modal-md para hacerlo más compacto -->
+            <div class="modal-dialog modal-md"> <!-- Modal de tamaño medio -->
                 <div class="modal-content">
-                    <!-- Header -->
-                    <div class="modal-header py-2"> <!-- Reducir padding vertical -->
-                        <h5 class="modal-title" id="modalTitle">Movie Title</h5>
+
+                    <!-- Cabecera del modal -->
+                    <div class="modal-header py-2"> <!-- Padding reducido en la cabecera -->
+                        <h5 class="modal-title" id="modalTitle">Movie Title</h5> <!-- Título de la película -->
                     </div>
-                    <!-- Body -->
-                    <div class="modal-body d-flex flex-column align-items-center text-center w-100 p-3">
-                        <!-- Image -->
-                        <div class="mb-3" style="max-width: 100%; max-height: 250px;"> <!-- Reducí max-height -->
-                            <img id="modalImage" src="" alt="Movie Image" class="img-fluid rounded">
-                        </div>
-                        <!-- Details -->
-                        <div class="text-start w-75"> <!-- Cambié el ancho a 75% -->
-                            <p id="modalDescription" class="mb-1 textDescription"><strong>Description:</strong> Movie description goes here.</p>
-                            <p id="modalDuration" class="mb-1"><strong>Duration:</strong> 120 minutes</p>
-                            <p id="modalGenre" class="mb-1"><strong>Genre:</strong> Action, Adventure</p>
-                            <p id="modalReleaseDate" class="mb-1"><strong>Release Date:</strong> 2023-01-01</p>
-                            <p id="modalCast" class="mb-1"><strong>Cast:</strong> Actor 1, Actor 2, Actor 3</p>
+
+                    <!-- Cuerpo del modal con información de la película -->
+                    <div class="modal-body d-flex flex-column align-items-center text-center w-100 p-4">
+                        <!-- Imagen de la película -->
+                        <img id="modalImage" src="" alt="Movie Image" class="img-fluid rounded mb-3">
+                        <!-- Detalles de la película -->
+                        <div class="text-start w-100">
+                            <p id="modalDescription" class="mb-2"><strong>Description:</strong> Movie description goes here.</p>
+                            <p id="modalDuration" class="mb-2"><strong>Duration:</strong> 120 minutes</p>
+                            <p id="modalGenre" class="mb-2"><strong>Genre:</strong> Action, Adventure</p>
+                            <p id="modalReleaseDate" class="mb-2"><strong>Release Date:</strong> 2023-01-01</p>
+                            <p id="modalCast" class="mb-2"><strong>Cast:</strong> Actor 1, Actor 2, Actor 3</p>
                         </div>
                     </div>
-                    <!-- Footer -->
-                    <div class="modal-footer py-2"> <!-- Reducir padding vertical -->
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    
+                    <!-- Pie del modal con botón de cierre -->
+                    <div class="modal-footer py-2"> <!-- Padding reducido en el pie -->
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> <!-- Botón para cerrar el modal -->
                     </div>
                 </div>
             </div>
         </div>
-        
-        
 
+    </div>
 
-    <script type="module" src="./js/app.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Archivos JS -->
+    <script type="module" src="./js/app.js"></script> <!-- Script principal de la aplicación -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script> <!-- Bootstrap JS -->
 </body>
 </html>
